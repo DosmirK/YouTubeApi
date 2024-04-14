@@ -3,6 +3,7 @@ package com.example.youtubeapi.app
 import android.app.Application
 import com.example.youtubeapi.di.adapterModule
 import com.example.youtubeapi.di.networkModule
+import com.example.youtubeapi.di.pagingSourceModule
 import com.example.youtubeapi.di.repositoryModule
 import com.example.youtubeapi.di.viewModelModule
 import org.koin.android.ext.koin.androidContext
@@ -13,7 +14,7 @@ class App : Application() {
         super.onCreate()
         startKoin {
             androidContext(this@App)
-            modules(networkModule, repositoryModule, viewModelModule, adapterModule)
+            modules(networkModule, pagingSourceModule, viewModelModule, adapterModule)
         }
     }
 }

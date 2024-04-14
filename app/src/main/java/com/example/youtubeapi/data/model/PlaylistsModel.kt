@@ -23,7 +23,9 @@ data class PageInfo(
 )
 
 data class ContentDetails(
-    val itemCount: Int
+    val itemCount: Int?,
+    val videoId: String?,
+    val videoPublishedAt: String?
 )
 
 data class Snippet(

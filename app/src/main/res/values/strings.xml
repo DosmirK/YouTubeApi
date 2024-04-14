@@ -5,4 +5,5 @@
     <string name="playlist">playlist</string>
     <string name="video_series">video series</string>
     <string name="Playlist">Playlist</string>
+    <string name="download">Download</string>
 </resources>

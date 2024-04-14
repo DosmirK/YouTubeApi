@@ -85,4 +85,11 @@ dependencies {
 
     // lottie animation
     implementation("com.airbnb.android:lottie:6.1.0")
+
+    //paging3
+    implementation("androidx.paging:paging-runtime-ktx:3.2.1")
+
+    //YT player
+    implementation("com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0")
+
 }
